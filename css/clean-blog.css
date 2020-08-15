@@ -115,12 +115,13 @@ img::-moz-selection {
   font-weight: 800;
   letter-spacing: 1px;
   text-transform: uppercase;
+
 }
 
 @media only screen and (min-width: 992px) {
   #mainNav {
     border-bottom: 1px solid transparent;
-    background: transparent;
+    background: #39A3B7;
   }
   #mainNav .navbar-brand {
     padding: 10px 20px;
@@ -150,20 +151,20 @@ img::-moz-selection {
     position: fixed;
     /*top: -67px;*/
     transition: transform 0.2s;
-    border-bottom: 1px solid white;
-    background-color: rgba(255, 255, 255, 0.9);
+    border-bottom: 1px solid #39A3B7;
+    background-color: #39A3B7;
   }
   #mainNav.is-fixed .navbar-brand {
     color: #212529;
   }
   #mainNav.is-fixed .navbar-brand:focus, #mainNav.is-fixed .navbar-brand:hover {
-    color: #0085A1;
+    color: #212529;
   }
   #mainNav.is-fixed .navbar-nav > li.nav-item > a {
     color: #212529;
   }
   #mainNav.is-fixed .navbar-nav > li.nav-item > a:focus, #mainNav.is-fixed .navbar-nav > li.nav-item > a:hover {
-    color: #0085A1;
+    color: #212529;
   }
   #mainNav.is-visible {
     /* if the user changes the scrolling direction, we show the header */
@@ -193,7 +194,7 @@ header.masthead .overlay {
 header.masthead .page-heading,
 header.masthead .post-heading,
 header.masthead .site-heading {
-  padding: 200px 0 150px;
+  padding: 190px 0 120px;
   color: white;
 }
 
@@ -201,7 +202,7 @@ header.masthead .site-heading {
   header.masthead .page-heading,
   header.masthead .post-heading,
   header.masthead .site-heading {
-    padding: 150px 0;
+    padding: 90px 0;
   }
 }
 
@@ -213,7 +214,7 @@ header.masthead .site-heading {
 header.masthead .page-heading h1,
 header.masthead .site-heading h1 {
   font-size: 40px;
-  margin-top: 50px;
+  margin-top: 0px;
   font-family: "Comic Sans MS", cursive, sans-serif;
 }
 
@@ -247,7 +248,7 @@ header.masthead .post-heading .subheading {
 header.masthead .post-heading .subheading {
   font-size: 24px;
   font-weight: 600;
-  margin: 10px 0 30px;
+  margin: 10px 0 10px;
   font-family: "Comic Sans MS", cursive, sans-serif;
 }
 
