@@ -7,6 +7,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="description" content="">
   <meta name="author" content="">
+  
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 
   <title>Experiences</title>
 
@@ -38,11 +42,14 @@
             <a class="nav-link" href="index.html">About Me</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="projects.html">Projects</a>
+            <a class="nav-link" href="projects2.html">Projects</a>
           </li>
 		  <li class="nav-item">
-            <a class="nav-link" href="experiences.html">Experiences</a>
+            <a class="nav-link" href="experiences2.html">Experiences</a>
           </li>
+		  <li class="nav-item">
+			<a class="nav-link" href="CV.pdf" target="new">Resume</a>
+		  </li>
         </ul>
       </div>
     </div>
@@ -55,7 +62,7 @@
       <div class="row">
         <div class="col-lg-8 col-md-10 mx-auto">
           <div class="site-heading">
-            <h1>EXPERIENCE</h1>
+            <h1>EXPERIENCES</h1>
           </div>
         </div>
       </div>
@@ -63,45 +70,53 @@
   </header>
 
   <!-- Main Content -->
-  
-  <div class="container">
-	<div class="row">
-		<div class="col-md">
-		<div class="container">
-		<div class="card-deck">
-		<div class="card">
-			<img class="card-img-top" src="img/pipecandy1.jpg" alt="Card image cap" >
-			<div class="card-body">
-			<h4 class="card-title" >Data Science Intern</h4> 
-			<h6><i>July 2019 – Dec 2019</i></h6>
-			<p class="card-text">Pipecandy tracks mid-market and enterprise eCommerce companies and uses predictive analytics to predict inflection points in the businesses. These insights help marketers, investors, analysts and sales teams to better understand their target companies. </p>
-			<p>As a data science intern... <a href="#" data-toggle="modal" data-target="#pipecandy">more info</a></p> 
-			</div> 
-		</div>
-		</div>
-		</div>
-		</div>
-		<div class="col-md">
-		<div class="container">
-		<div class="card-deck">
-		<div class="card">
-			<img class="card-img-top" src="img/makesto.png" alt="Card image cap" >
-			<div class="card-body">
-			<h4 class="card-title" >Software Development Intern</h4>
-			<h6><i>May 2018 – June 2018</i></h6>
-			<p class="card-text">Point105-AR’s mission is to help businesses build augmented reality experiences that are delightful, fun and intuitive to enhance customer experience.</p>
-			<br>
-			<p>As a software development intern... <a href="#" data-toggle="modal" data-target="#makesto">more info</a></p> 
-			</div>
-		</div>
-		</div>
-		</div>
-		</div>
-	</div>
+<div class="container">  
+<section class="internships">
+<h2 class="section-heading" style="text-align: center;">Internships</h2>
+<div class="row">
+  <div class="col-sm-4"><img src="img/pipecandy1.jpg" alt="" style="height=100px;width=300px;"></div>
+  <div class="col-sm-8">
+	<h4 class="experience-title">Data Science Intern</h4>
+	<h4><i>July 2019 – Dec 2019</i></h4>
+	<p class="card-text">Pipecandy tracks mid-market and enterprise eCommerce companies and uses predictive analytics to predict inflection points in the businesses. These insights help marketers, investors, analysts and sales teams to better understand their target companies. </p>
+	<p class="card-text">As a data science intern... <a href="#" data-toggle="modal" data-target="#pipecandy">read more</a></p>
   </div>
-  
+</div>
 
-  <hr>
+<hr>
+
+<div class="row">
+  
+  <div class="col-sm-8">
+	<h4 class="experience-title">Software Development Intern</h4>
+	<h4><i>May 2018 – June 2018</i></h4>
+	<p class="card-text">Point105-AR’s mission is to help businesses build augmented reality experiences that are delightful, fun and intuitive to enhance customer experience.</p>
+	<p class="card-text">As a software development intern... <a href="#" data-toggle="modal" data-target="#makesto">read more</a></p>
+  </div>
+  <div class="col-sm-4"><img src="img/makesto.png" alt="" style="height=100px;width=300px;max-width:80%;"></div>
+</div>
+</section>
+
+<hr>
+
+<section class="volunteers">
+<h2 class="section-heading" style="text-align: center;">Volunteering</h2>
+<div class="row">
+  <div class="col-sm-4"><img src="img/acm-ceg.png" alt="" style="height=100px;width=300px;max-width:70%;"></div>
+  <div class="col-sm-8">
+	<h4 class="experience-title">Vice Chairperson</h4>
+	<h4><i>June 2019 – March 2020</i></h4>
+	<p class="card-text">ACM is a student run chapter which encourages students to learn and creates awareness of the tech industry. It is a community for students to come together to learn and grow.</p>
+	<p class="card-text">As a vice chairperson... <a href="#" data-toggle="modal" data-target="#acm-ceg">read more</a></p>
+  </div>
+</div>
+
+<hr>
+
+</section>
+<hr>
+
+</div>
 
 <!-- Modal -->
 <div class="modal fade" id="pipecandy" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
@@ -157,6 +172,31 @@
   </div>
 </div>
 
+<div class="modal fade" id="acm-ceg" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle">Organization: ACM CEG Chapter</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        As a vice chairperson I did the following:
+		<ul>
+			<li>Conduct talks with alumini/guest speakers to help encourage more students to pursue a career in tech</li>
+			<li>Conduct CODhER( hackathon for women) and provide the winners an internship with our sponsors as such amazon and startups in Chennai, to encourage more girls to participate in tech/coding</li>
+			<li>Visit schools to conduct workshops for students of grade 9 and above to help them gain knowledge in the domain.</li>
+		</ul>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<hr>
   <!-- Footer -->
 <footer>
     <div class="container">
